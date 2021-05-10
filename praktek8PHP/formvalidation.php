@@ -10,6 +10,7 @@ integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLP
 <body>
 
 <?php
+include ('koneksi.php');
 //Deklarasi Variabel
 $error_nama = "";
 $error_email = "";
