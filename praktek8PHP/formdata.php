@@ -11,6 +11,7 @@ integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLP
 <body>
 
 <?php
+include ('koneksi.php');
 //Deklarasi Variabel
 $error_jenis_pendaftaran="";
 $error_tanggal_masuk_sekolah="";
@@ -981,5 +982,7 @@ echo "<br>";
 ke database sukses atau gagal*/
 echo $pesan_sukses;
 ?>
+		<button onclick="location.href= 'reportdatasiswa.php';" 
+		id="export" class="btn btn-primary">Export to Excel</button>
 </body>
 </html>
